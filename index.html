@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/t7.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Hamza Mabrouk.</span>
+                    A Future Software Engineer.
+                </h1>
+                <p >
+                    I'm an undergraduate Software Engineer, a dedicated and aspiring Data Analyst with a passion for
+					extracting valuable insights from complex datasets. As an undergraduate pursuing a degree 
+					in Software Engineering, I am equipping myself with the technical skills necessary to excel
+                    in the field of data analysis.
+                </p>
+                <div class="btn-con">
+    <a href="#" id="download-link" class="main-btn">
+        <span class="btn-text">Download CV</span>
+        <span class="btn-icon"><i class="fas fa-download"></i></span>
+    </a>
+</div>
+
+<script>
+    document.getElementById("download-link").addEventListener("click", function () {
+        var fileUrl = "https://drive.google.com/u/0/uc?id=18esDHwLOyzWJgxgtOtRpoRslhoDUG6lx&export=download";
+        window.open(fileUrl, "_blank");
+    });
+</script>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p class = "parag">
+                        I hold a Bachelor's degree in Science and subsequently followed my
+						enthusiasm for coding and problem-solving to enroll at 
+						EMSI: Moroccan School of Engineering Sciences. 
+                        Throughout my academic journey, I have been captivated by the world of data analysis
+						and its potential to extract valuable insights from complex information <br /> <br /> 
+						
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+				
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">50+</p>
+                            <p class="small-text">Academic Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                   <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">4+</p>
+                            <p class="small-text">Years in <br />undergraduate software engineering</p>
+                        </div>
+						
+                    </div>
+					
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">10+</p>
+                            <p class="small-text">programming <br /> Languages</p>
+                        </div>
+                    </div>
+					
+                   <!-- <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">100+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div>
+					-->
+                </div>
+				
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Power BI</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Web Scraping</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">MS Excel</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Data Cleaning</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2018 - 2019</p>
+                    <h5>Bachelor degree <span> - lina</span></h5>
+                    <p>
+                       Completed my undergraduate studies with a focus science, building a strong foundation in analytical thinking and problem-solving.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022</p>
+                    <h5>Introduction to Data Analysis<span></span></h5>
+                    <p>
+					Discovered my interest in data analysis during
+					coursework and projects. Started exploring data
+					manipulation, visualization, and statistical analysis.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2020</p>
+                    <h5>EMSI<span>- Moroccan School of Engineering Sciences</span></h5>
+                    <p>
+                       Enrolled at EMSI to pursue my passion
+					   for coding and problem-solving. Began 
+					   my journey into the world of engineering and technology.
+					   </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022-2023</p>
+                    <h5>Deepening Expertise<span></span></h5>
+                    <p>
+					 Engaged in self-guided learning and online courses to strengthen
+					 my knowledge in data analysis tools, including Python 
+					 libraries (Pandas, BeautifulSoap) and SQL.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022</p>
+                    <h5>Computer Science and Networks<span> - EMSI</span></h5>
+                    <p>
+                     3rd Year Specialization in Computer Science and Networks, immersing myself in 
+                      the world of technology and networking.                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022-2023</p>
+                    <h5>Personal Data Projects<span></span></h5>
+                    <p>
+					Worked on personal data analysis projects,
+					including data visualizations, to apply my
+					skills and showcase my passion for the field.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                      Here are some of my programming projects, specifically focused on data analysis
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+					     <a href="https://github.com/Cedrek1/PortfolioProjetCovidDataExploration" target="_blank">
+
+                        <img  src="img/port1.jpg" alt="">
+						
+	                  
+
+                    </div>
+                    <div class="hover-items">
+                        <h3>Covid Data Exploration</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1/PortfolioProjetCovidDataExploration" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!--
+							<a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+                        </div>
+                    </div>
+					</a>
+                </div>
+				
+                <div class="portfolio-item">
+					  <a href="https://github.com/Cedrek1/PortfolioProjetSqlCleanining"  target="_blank">
+
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+
+                    <div class="hover-items">
+                        <h3>Data Cleaining SQL</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1/PortfolioProjetSqlCleanining" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+							<!--
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+                        </div>
+                    </div>
+					</a>
+                </div>
+                <div class="portfolio-item">
+				  <a href="https://github.com/Cedrek1/RoadAccidentVersion2_DataQuery_SQL"  target="_blank">
+
+                    <div class="image">
+                        <img src="img/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Road Data Accident </h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1/RoadAccidentVersion2_DataQuery_SQL" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+							<!--
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+                        </div>
+                    </div>
+					</a>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port4.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+				       <a href="https://github.com/Cedrek1/HR_DataQuery_SQL"  target="_blank">
+
+                        <h3>Hr Data Exploration</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1/HR_DataQuery_SQL" class="icon" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+							<!--
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+                        </div>
+                    </div>
+					</a>
+                </div>
+                <div class="portfolio-item">
+				  <a href="https://github.com/Cedrek1/HR_DataQuery_SQL"  target="_blank">
+
+                    <div class="image">
+                        <img src="img/port5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Olympic Data </h3>
+						<h3>Exploration </h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1/Olympic_DataQuery_SQL" class="icon"  target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+							<!--
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+							</a>
+                        </div>
+                    </div>
+                </div>
+				<!--
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>BLANK...</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                           <!--
+						   <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							
+                        </div>
+                    </div>
+                </div>
+				-->
+                <div class="portfolio-item">
+				  <a href="https://github.com/Cedrek1?tab=repositories"  target="_blank">
+
+                    <div class="image">
+                        <img src="img/blog5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>And more...</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Cedrek1?tab=repositories" class="icon" target ="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+							<!--
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+							-->
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+					 <a href="https://medium.com/@mabroukhamzaa/selecting-the-right-tools-for-data-analysis-119dcba9e36c" target="_blank">
+
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+							Selecting the Right Tools for Data Analysis
+                               
+                            </h4>
+							</a>
+                            <p>
+                                From Excel and Python to SQL and Power BI, we delve into the strengths and use cases of each tool.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+					 <a href="https://medium.com/@mabroukhamzaa/must-read-blogs-for-data-analyst-students-3567ccc6d95e" target="_blank">
+
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+							Must-read blogs for data analyst students:
+
+                            </h4>
+							</a>
+                            <p>
+							Essential blog for aspiring data 
+							analysts, providing valuable resources
+							and industry insights to excel in your 
+							data science journey.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+			 <a href="https://medium.com/@mabroukhamzaa/top-data-analytics-blogs-to-read-9cef6cc09ed9" target="_blank">
+
+                        <img src="img/blog4.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                               Top Data Analytics Blogs to Read
+
+                            </h4>
+	         </a>
+                            <p>
+							Explore the best data analytics blogs 
+							for valuable insights and expert knowledge 
+							in the dynamic field of data science.
+                            </p>
+                        </div>
+                    </div>
+                   <!-- <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                   </div>
+				   -->
+                  <!--
+				  <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+					-->
+					<!--
+					<div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+					-->
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+						Connect with me for inquiries, collaborations, and opportunities in 
+						the world of data analysis. Let's embark on exciting data-driven ventures together.
+                           
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                     Casablanca, Morocco.
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email :</span>
+                                </div>
+                                <p>
+                                    <span> mabroukhamzaa@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span> EMSI Engineering School </span>
+                                </p>
+                            </div>
+							<!--
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span> +212623179580</span>
+                                </p>
+                            </div>
+							-->
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span> Arabic, English, French </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+
+                                <a href="https://github.com/Cedrek1?tab=repositories" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/hamza-mabrouk-0794a225b/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <!--
+								<input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+								-->
+								<img src="img/blog2.jpg" alt="">
+								
+                            </div>
+							<!--
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+							-->
+							<!--
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+							-->
+                            <div class="submit-btn">
+                                <a href="https://drive.google.com/u/0/uc?id=18esDHwLOyzWJgxgtOtRpoRslhoDUG6lx&export=download" class="main-btn" target ="_blank">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+							<script>
+    document.getElementById("download-link").addEventListener("click", function () {
+        var fileUrl = "https://drive.google.com/u/0/uc?id=18esDHwLOyzWJgxgtOtRpoRslhoDUG6lx&export=download";
+        window.open(fileUrl, "_blank");
+    });
+</script>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
