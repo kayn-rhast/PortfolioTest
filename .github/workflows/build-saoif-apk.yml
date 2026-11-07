@@ -21,7 +21,10 @@ jobs:
       - name: Android SDK path
         run: echo "ANDROID_HOME=${ANDROID_SDK_ROOT}" >> "$GITHUB_ENV"
       - name: SDK 35
-        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+        run: |
+          export PATH="${ANDROID_SDK_ROOT}/cmdline-tools/16.0/bin:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:$PATH"
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-35" "build-tools;35.0.0"
       - name: Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
